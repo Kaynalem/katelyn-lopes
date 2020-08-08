@@ -10,27 +10,21 @@ import Resume from '../../components/Resume';
 class Header extends Component {
     render() {
     return (
-        
-        <Router>
-            <header id="home">
-                <nav id="nav-wrap" className="">
-                    
-                    <div id="nav" className="nav">
-                    <Navigation />
-                    </div>
-                    <Switch>
-                        <Route exact path="/" render={() => (<Redirect to="/about"/>)} />
-                        
-                        <Route exact path="/about" component={About} />
-                        <Route exact path="/portfolio" component={Portfolio} />
-                        <Route exact path="/contact" component={Contact} />
-                        <Route exact path="/resume" component={Resume} />
-                    </Switch>
-                    
-                </nav>
-                <Route exact path="/home" component={Home} />
-                
-            </header>
+        <Router>      
+            <div id="header" className="row">
+                <a href="/home"> <h1 className="logo">K<span>L</span></h1></a> 
+                <Navigation />
+            </div>
+            <div className="content">
+            <Switch>
+                <Route exact path="/" render={() => (<Redirect to="/about"/>)} />
+                <Route exact path="/home"component={Home} /> 
+                <Route exact path="/about" component={About} />
+                <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/contact" component={Contact} />
+                <Route exact path="/resume" component={Resume} />
+            </Switch>
+            </div>
         </Router>
         )
     }

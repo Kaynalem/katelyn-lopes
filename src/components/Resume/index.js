@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class Resume extends Component {
     render() {
         return (
-            <div><h1>Resume</h1> </div>
+            <section className="section-title container">
+                <h1 className="name">Resume</h1>
+                <hr></hr>
+            </section>
         )
     }
 }

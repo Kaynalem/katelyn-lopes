@@ -34,18 +34,19 @@ function ContactForm() {
     }
 
     return (
-        <section>
-            <h1 data-testid='h1contact'>Contact Me</h1>
+        <section className="section-title container">
+            <h1 data-testid='h1contact' className="name">Contact Me</h1>
+            <hr></hr>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div class="form-group">
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name"/>
                 </div>
-                <div>
+                <div class="form-group"> 
                     <label htmlFor="email">Email address:</label>
                     <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
                 </div>
-                <div>
+                <div class="form-group">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
                 </div>

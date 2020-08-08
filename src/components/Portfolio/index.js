@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class Portfolio extends Component {
     render() {
         return (
-            <div><h1>Portfolio</h1> </div>
+            <section className="section-title container">
+                <h1 className="name">Portfolio</h1>
+                <hr></hr>
+            </section>
         )
     }
 }
