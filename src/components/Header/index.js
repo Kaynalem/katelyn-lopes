@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router,  Switch, Route, Redirect } from 'react-router-dom';
 import Navigation from '../../components/Navigation';
+import Home from '../../components/Home';
 import About from '../../components/About';
 import Contact from '../../components/Contact';
 import Portfolio from '../../components/Portfolio';
@@ -12,21 +13,23 @@ class Header extends Component {
         
         <Router>
             <header id="home">
-                <nav id="nav-wrap">
-                    <Navigation />
+                <nav id="nav-wrap" className="">
+                    
                     <div id="nav" className="nav">
-                        <Route exact path="/" render={() => (<Redirect to="/portfolio"/>)} />
-
+                    <Navigation />
+                    </div>
+                    <Switch>
+                        <Route exact path="/" render={() => (<Redirect to="/about"/>)} />
+                        
                         <Route exact path="/about" component={About} />
+                        <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/contact" component={Contact} />
-                    </div>
+                        <Route exact path="/resume" component={Resume} />
+                    </Switch>
+                    
                 </nav>
-                <div className="row banner">
-                    <div className="banner-text">
-                        <h1 className="responsive-headline">Katelyn <span>Lopes</span></h1>
-                        <h3>San Antonio based coding boot camp student</h3>
-                    </div>
-                </div>
+                <Route exact path="/home" component={Home} />
+                
             </header>
         </Router>
         )
