@@ -357,13 +357,16 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 14px;
+  width:100%;
+  position: fixed;
+  bottom: 0px;
   text-align: center;
-  position: relative;
+
 }
 
 /* social links */
 
-footer a, footer a:visited { color: #fff; }
+footer a, footer a:visited { color: rgba(255, 255, 255, 0.8); }
 footer a:hover, footer a:focus { color: #11ABB0; }
 
 footer .social-links {
