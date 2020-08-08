@@ -209,7 +209,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 #nav-wrap {
   font: 12px 'opensans-bold', sans-serif;
   width: 100%;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2.5px;
   margin: 0 auto;
   z-index: 100;
@@ -296,6 +296,11 @@ span[role="img"] {
   cursor: default;
 }
 
+.me {
+    border-radius: 50%;
+    height: 130px;
+    margin: auto;
+}
 form {
   width: 40%;
 }
@@ -480,32 +485,6 @@ footer {
   position: relative;
 }
 
-
-
-/* copyright */
-footer .copyright {
-   margin: 0;
-   padding: 0;
-}
-footer .copyright li {
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-   line-height: 24px;
-}
-.ie footer .copyright li {
-  display: inline;
-}
-footer .copyright li:before {
-   content: "\2022";
-   padding-left: 10px;
-   padding-right: 10px;
-   color: #095153;
-}
-footer .copyright  li:first-child:before {
-   display: none;
-}
-
 /* social links */
 
 footer a, footer a:visited { color: #fff; }
@@ -517,10 +496,10 @@ footer .social-links {
   font-size: 30px;
 }
 footer .social-links li {
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-   margin-left: 42px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
 
 }
 
