@@ -138,16 +138,16 @@ hr {
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
-  border: none;
+  border-color: var(--tertiary-color) !important;
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color:  #fff !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
   color: var(--tertiary-color) !important;
 }
 
 .btn-button:hover {
-  background-color: var(--tertiary-color) !important;
+  background-color: rgba(36, 69, 94, 0.8) !important;
   color: #fff !important;
   opacity: .8;
 }
