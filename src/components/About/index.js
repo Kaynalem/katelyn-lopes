@@ -18,9 +18,6 @@ class About extends Component {
                         <p>
                         Chia pariatur gastropub wolf street art. Whatever actually meditation reprehenderit, in meh quis kickstarter franzen lyft pabst jianbing deep v consequat 90's. Man bun kinfolk roof party chartreuse direct trade. Copper mug meggings try-hard, master cleanse umami adaptogen kogi food truck aliqua.
                         </p>
-                        <p>
-                        Stumptown quinoa you probably haven't heard of them cillum, selfies celiac edison bulb. Cupidatat deep v ramps paleo, four loko dolore art party reprehenderit cloud bread palo santo in bespoke waistcoat jianbing duis. Schlitz irony farm-to-table, sartorial deserunt id next level flexitarian slow-carb tbh voluptate lyft bespoke. Non farm-to-table 3 wolf moon edison bulb excepteur. Lyft single-origin coffee you probably haven't heard of them, cornhole ugh next level minim umami art party in put a bird on it. Narwhal messenger bag kogi synth consectetur.
-                        </p>
 
                         <p>
                             <a href="/resume" className="link"> View my resume</a>

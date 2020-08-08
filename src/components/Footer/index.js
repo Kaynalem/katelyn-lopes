@@ -4,9 +4,10 @@ import React from 'react';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer className="footer" id="footer">
         <div className="">
            <ul className="social-links">
            <li><a href="https://github.com/Kaynalem"><FontAwesomeIcon icon={faGithub} size="lg" alt="GitHub"/></a></li>

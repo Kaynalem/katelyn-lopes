@@ -37,25 +37,29 @@ function ContactForm() {
         <section className="section-title container">
             <h1 data-testid='h1contact' className="name">Contact Me</h1>
             <hr></hr>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div class="form-group">
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name"/>
+            <form className="text-left" onSubmit={handleSubmit}>
+                <div className="form-group row">
+                    <label htmlFor="name" className="col-sm-2 col-form-label font-weight-bold">Name:</label>
+                    <input className="col-sm-2" type="text" defaultValue={name} onBlur={handleChange} name="name" placeholder="Enter your name"/>
                 </div>
-                <div class="form-group"> 
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                <div className="form-group row"> 
+                    <label htmlFor="email" className="col-sm-2 col-form-label font-weight-bold">Email address:</label>
+                    <input className="col-sm-3" type="email" name="email" defaultValue={email} onBlur={handleChange} placeholder="Enter your email address"/>
                 </div>
-                <div class="form-group">
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
+                <div className="form-group row">
+                    <label htmlFor="message" className="col-sm-2 col-form-label font-weight-bold">Message:</label>
+                    <textarea className="col-sm-8"name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Your message here"/>
                 </div>
                 {errorMessage && (
                 <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <p className="error-text font-weight-bold text-center">{errorMessage}</p>
                 </div>
                 )}
-                <button data-testid="btncontact" type="submit" className="btn btn-button">Submit</button>
+                <div className="form-group row justify-content-center">
+                    <div> 
+                        <button data-testid="btncontact" type="submit" className="btn btn-button font-weight-bold">Submit</button>
+                    </div>
+                </div>
             </form>
             </section>
         )
