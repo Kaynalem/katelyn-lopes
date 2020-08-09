@@ -102,6 +102,7 @@ Navigation Style
 }
 .logo {
   color: var(--tertiary-color);
+  margin-bottom: 0;
 }
 span {
   color:#fff;
@@ -117,10 +118,12 @@ span {
 
 #navigation a {
   color: var(--tertiary-color);
-  padding-left: 2em;
   text-decoration: none;
 }
-
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(36, 69, 94, 0.6) !important;
+}
 /*
 ========================================
 Hero Style
@@ -365,14 +368,10 @@ textarea {
 .cards .img-container img {
   width: 100%;
   padding: 20px;
-
-  background-color: var(--platinum);
 }
 
 .cards .content {
   font-size: 18px;
-  background-color: var(--platinum);
-  color: var(--orange-soda);
   font-weight: bold;
   text-align: center;
 }
