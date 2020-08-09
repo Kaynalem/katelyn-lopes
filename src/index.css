@@ -108,7 +108,7 @@ span {
 }
 #navigation {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   font-size: 22px;
   text-decoration: none;
   align-content: center;
