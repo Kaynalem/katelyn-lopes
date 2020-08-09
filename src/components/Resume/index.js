@@ -19,14 +19,17 @@ class Resume extends Component {
 
                 </div>
                 <div className="justify-content-center m-5">
-                    <h1 className="font-weight-bold mb-3">Proficiencies</h1>
-                    <div id="front-back">
-                        <h2>Front End</h2>
+                <div>
+                        <h2 className="font-weight-bold">Proficiencies</h2>
+                        
+                    </div>
+                    <div>
+                        <h3>Front End</h3>
                         <p>HTML, CSS, Bootstrap, Materialize, JavaScript, jQuery, React.js, IndexedDB, Handlebars</p>
                     </div>
             
-                    <div id="front-back" className="mt-5">
-                        <h2>Back End</h2>
+                    <div className="mt-5">
+                        <h3>Back End</h3>
                         <p>
                         Node.js, Express.js, SQL (sqlite, mySQL), Sequelize, NoSQL (MongoDB, Mongoose), API's (third-party, RESTful, server-side)
                         </p>
