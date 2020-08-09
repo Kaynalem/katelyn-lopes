@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/katelyn-lopes/precache-manifest.49e3091254dbf301849aea577850e0b9.js"
+  "/katelyn-lopes/precache-manifest.f96aaf13be9dcf8fdea415cbaaae4c97.js"
 );
 
 self.addEventListener('message', (event) => {
