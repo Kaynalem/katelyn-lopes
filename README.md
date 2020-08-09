@@ -1,11 +1,11 @@
 
-# PWA: Budget Tracker
+# React Portfolio
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
-![mockup](https://raw.githubusercontent.com/Kaynalem/budget-tracker/master/public/utils/mockup.PNG)
+![mockup](https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/public/utils/mockup.PNG)
 ## Table of Contents
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
@@ -57,7 +57,7 @@ To install necessary dependencies, run the following command in your terminal:
 npm install 
 ```
 ## Usage
-Run `npm start` in your terminal and visit http://localhost:3001/ or [click here](https://my-budget-tracker-pwa.herokuapp.com/) to use the deployed application!
+Run `npm start` in your terminal and visit http://localhost:3001/ or [click here](http://kaynalem.github.io/katelyn-lopes) to use the deployed application!
 ## License
 This project is licensed under the MIT license.
 ## Contributing
