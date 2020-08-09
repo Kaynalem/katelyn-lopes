@@ -19,7 +19,7 @@ function Contact() {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required`);
+                setErrorMessage(`A ${e.target.name} is required`);
             } else {
                 setErrorMessage('');
             }
