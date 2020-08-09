@@ -1,0 +1,74 @@
+[
+    {
+    "id": 1,
+    "name": "UpDog",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/updog.jpg",
+    "github": "https://github.com/Kaynalem/UpDog",
+    "deployed": "https://whats-up-dog.herokuapp.com/",
+    "tools": "node.js, express, express-handlebars, express-session, connect-session-sequelize, mysql2, sequelize, dotenv, bcrypt, multer, Google maps, Bootstrap"
+    },
+    {
+    "id": 2,
+    "name": "Drink and Think",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/updog.jpg",
+    "github": "https://github.com/Kaynalem/drink-and-think",
+    "deployed": "https://kaynalem.github.io/drink-and-think/",
+    "tools": "HTML, CSS, JavaScript, JQuery, materialzed, API"
+    },
+    {
+    "id": 3,
+    "name": "Tech Blog",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/tech-blog.PNG",
+    "github": "https://github.com/Kaynalem/tech-blog",
+    "deployed": "https://serene-eyrie-02684.herokuapp.com/",
+    "tools": "node.js, express, express-handlebars, express-session, connect-session-sequelize, mysql2, sequelize, dotenv, bcrypt, jest, Bootstrap"
+    },
+    {
+    "id": 4,
+    "name": "Budget Tracker",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/budget-tracker.PNG",
+    "github": "https://github.com/Kaynalem/budget-tracker",
+    "deployed": "https://my-budget-tracker-pwa.herokuapp.com/",
+    "tools": "IndexedDB, mongoDB, mongoose, compression, morgan, express"
+    },
+    {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/weather-dashboard.jpg",
+    "github": "https://github.com/Kaynalem/weather-dashboard",
+    "deployed": "https://kaynalem.github.io/weather-dashboard/",
+    "tools": "HTML, JavaScript, jQuery, Bootstrap, moment, API"
+    },
+    {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/workday-scheduler.jpg",
+    "github": "https://github.com/Kaynalem/work-day-scheduler",
+    "deployed": "https://kaynalem.github.io/work-day-scheduler/",
+    "tools": "HTML, JavaScript, Bootstrap, CSS, jQuery, moment"
+    },
+    {
+    "id": 7,
+    "name": "Code Quiz",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/code-quiz.jpg",
+    "github": "https://github.com/Kaynalem/code-quiz",
+    "deployed": "https://kaynalem.github.io/code-quiz/",
+    "tools": "HTML, JavaScript, CSS"
+    },
+    {
+    "id": 8,
+    "name": "Password Generator",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/password-generator.jpg",
+    "github": "https://github.com/Kaynalem/password-generator",
+    "deployed": "https://kaynalem.github.io/password-generator/",
+    "tools": "HTML, JavaScript, CSS"
+    },
+    {
+    "id": 9,
+    "name": "Run Buddy",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/run-buddy.jpg",
+    "github": "https://github.com/Kaynalem/run-buddy",
+    "deployed": "https://kaynalem.github.io/run-buddy/",
+    "tools": "HTML, CSS"
+    }
+]
