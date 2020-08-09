@@ -89,7 +89,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 /*
 ========================================
@@ -147,10 +147,10 @@ Hero Style
 .hero-text span {
     color:#fff;
 }
-.hero h2 {
+.hero h3 {
     margin-top: 10px;
     color: #d6d6d6;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 /* 
