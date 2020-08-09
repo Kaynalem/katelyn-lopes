@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navigation = () => {
+function Navigation() {
 
     return (
             <div className="row navigation" id="navigation">

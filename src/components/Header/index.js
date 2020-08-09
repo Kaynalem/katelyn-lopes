@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router,  Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter,  Switch, Route, Redirect } from 'react-router-dom';
 import Navigation from '../../components/Navigation';
 import Home from '../../components/Home';
 import About from '../../components/About';
@@ -10,13 +10,13 @@ import Resume from '../../components/Resume';
 class Header extends Component {
     render() {
     return (
-        <Router>      
+        <HashRouter>      
             <div id="header" className="row">
                 <Navigation />
             </div>
             <div className="content">
             <Switch>
-                <Route exact path="/" render={() => (<Redirect to="/about"/>)} />
+                <Route exact path="/" render={() => (<Redirect to="/about/"/>)} />
                 <Route path="/home"component={Home} /> 
                 <Route path="/about" component={About} />
                 <Route path="/portfolio" component={Portfolio} />
@@ -24,7 +24,7 @@ class Header extends Component {
                 <Route path="/resume" component={Resume} />
             </Switch>
             </div>
-        </Router>
+        </HashRouter>
         )
     }
 }
