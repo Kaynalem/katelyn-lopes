@@ -91,6 +91,7 @@ a {
 a:hover {
   text-decoration: none;
 }
+
 /*
 ========================================
 Navigation Style
@@ -450,5 +451,8 @@ footer .social-links li:first-child { margin-left: 0; }
   /* this will be applied on any screen smaller than 575 px*/
 .cards {
   height: 450px;
+}
+.row {
+  margin: 0 auto !important;
 }
 }
