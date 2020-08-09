@@ -3,7 +3,8 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+
+A single-page application porfolio that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
 ![mockup](https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/mockup.PNG)
 ## Table of Contents
