@@ -5,7 +5,7 @@
 ## Description
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
-![mockup](https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/public/utils/mockup.PNG)
+![mockup](https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/mockup.PNG)
 ## Table of Contents
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
