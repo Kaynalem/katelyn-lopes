@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/katelyn-lopes/static/css/main.26f7777f.chunk.css",
+    "main.js": "/katelyn-lopes/static/js/main.c7435032.chunk.js",
+    "main.js.map": "/katelyn-lopes/static/js/main.c7435032.chunk.js.map",
+    "runtime-main.js": "/katelyn-lopes/static/js/runtime-main.307d17f0.js",
+    "runtime-main.js.map": "/katelyn-lopes/static/js/runtime-main.307d17f0.js.map",
+    "static/css/2.11829350.chunk.css": "/katelyn-lopes/static/css/2.11829350.chunk.css",
+    "static/js/2.e3b94f10.chunk.js": "/katelyn-lopes/static/js/2.e3b94f10.chunk.js",
+    "static/js/2.e3b94f10.chunk.js.map": "/katelyn-lopes/static/js/2.e3b94f10.chunk.js.map",
+    "index.html": "/katelyn-lopes/index.html",
+    "precache-manifest.ed230418686999557d53c426407ece69.js": "/katelyn-lopes/precache-manifest.ed230418686999557d53c426407ece69.js",
+    "service-worker.js": "/katelyn-lopes/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/katelyn-lopes/static/css/2.11829350.chunk.css.map",
+    "static/css/main.26f7777f.chunk.css.map": "/katelyn-lopes/static/css/main.26f7777f.chunk.css.map",
+    "static/js/2.e3b94f10.chunk.js.LICENSE.txt": "/katelyn-lopes/static/js/2.e3b94f10.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/katelyn-lopes/static/media/cover-image.2885b87b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.307d17f0.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.e3b94f10.chunk.js",
+    "static/css/main.26f7777f.chunk.css",
+    "static/js/main.c7435032.chunk.js"
+  ]
+}
