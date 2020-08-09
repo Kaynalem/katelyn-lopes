@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <section className="section-title container">
-                <h1>About Me</h1>
+                <h1>Katelyn Lopes: About</h1>
                 <hr></hr>
                 <div className="row justify-content-center">
                     <div className="col-10 section-content">
