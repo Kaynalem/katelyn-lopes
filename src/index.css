@@ -83,7 +83,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--tertiary-color);
   text-decoration: none;
   font-weight: bold;
 }
@@ -120,6 +120,7 @@ span {
   padding-left: 2em;
   text-decoration: none;
 }
+
 /*
 ========================================
 Hero Style
