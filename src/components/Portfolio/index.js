@@ -9,7 +9,7 @@ class Portfolio extends Component {
         }
         return (
             <section className="section-title">
-                <h1 >Katelyn Lopes: Portfolio</h1>
+                <h1 >Katelyn Lopes: <span>Portfolio</span></h1>
                 <hr></hr>
                 <Project id="card-data">
                     {portfolio.map((project) => (

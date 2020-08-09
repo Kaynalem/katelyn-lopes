@@ -37,7 +37,7 @@ function Contact() {
 
     return (
         <section className="section-title container">
-            <h1 data-testid='h1contact'>Katelyn Lopes: Contact</h1>
+            <h1 data-testid='h1contact'>Katelyn Lopes: <span>Contact</span></h1>
             <hr></hr>
             <form className="text-left" onSubmit={handleSubmit}>
                 <div className="form-group row">
