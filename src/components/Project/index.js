@@ -7,21 +7,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // Individual projects
 function Projects(props) {
     return (
-      <div className="card"> 
-        <div className="card-img-top">
+      <div className="cards"> 
+        
+        <div className="content h-100">
+        <div className="img-container">
           <img alt={props.name} src={props.image}/>
-        </div>
-        <div className="card-body">
-              <p className="card-title">{props.name}</p>
-              <p>
-              <a href={props.github}><FontAwesomeIcon icon={faGithub} size="2x" alt="GitHub"/></a> 
-              <a href={props.deployed}><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" alt="Deployed link"/></a> 
-              </p>
-              <p className="card-text">
+
+          </div>
+              <h5 className="project-title" id="card-title">{props.name}</h5>
+              <p id="toolss">
                     {props.tools}
                 </p>
+
+              <a href={props.github}><FontAwesomeIcon icon={faGithub} size="2x" alt="GitHub"/></a> 
+              <a href={props.deployed}><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" alt="Deployed link"/></a> 
+
+              </div>
+
         </div>
-      </div>
     );
 }
   
