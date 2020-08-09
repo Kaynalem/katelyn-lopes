@@ -20,7 +20,7 @@ class About extends Component {
                         </p>
 
                         <p>
-                            <a href="/#/resume" className="text-light text-decoration-none"> View my resume</a>
+                            <a href="/katelyn-lopes/#/resume" className="text-light text-decoration-none"> View my resume</a>
                         </p>
                     </div>  
             </div>
