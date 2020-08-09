@@ -12,17 +12,16 @@ class Header extends Component {
     return (
         <Router>      
             <div id="header" className="row">
-                <a href="/home"> <h1 className="logo">K<span>L</span></h1></a> 
                 <Navigation />
             </div>
             <div className="content">
             <Switch>
                 <Route exact path="/" render={() => (<Redirect to="/about"/>)} />
-                <Route exact path="/home"component={Home} /> 
-                <Route exact path="/about" component={About} />
-                <Route exact path="/portfolio" component={Portfolio} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact path="/resume" component={Resume} />
+                <Route path="/home"component={Home} /> 
+                <Route path="/about" component={About} />
+                <Route path="/portfolio" component={Portfolio} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/resume" component={Resume} />
             </Switch>
             </div>
         </Router>

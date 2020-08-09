@@ -5,6 +5,9 @@ const Navigation = () => {
 
     return (
             <div className="row navigation" id="navigation">
+                <Link to="/home">
+                <h1 class="logo">K<span>L</span></h1>
+                </Link>
                 <Link to="/about" className="" >About</Link>
                 <Link to="/portfolio" className="">Portfolio</Link>
                 <Link to="/contact" className="">Contact</Link>
