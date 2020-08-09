@@ -8,7 +8,7 @@ function Navigation() {
         <Nav variant="pills" defaultActiveKey="/katelyn-lopes/#/about" className="row navigation" id="navigation">
             
             <Nav.Item>
-                <Nav.Link eventKey="/home" href="/katelyn-lopes/#/home">
+                <Nav.Link eventKey="/home" href="/katelyn-lopes/#/home" id="hometab">
                     <h1 className="logo">K<span>L</span></h1>
                 </Nav.Link>
             </Nav.Item>

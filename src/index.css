@@ -123,8 +123,9 @@ span {
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: rgb(255, 255, 255) !important;
-  background-color: rgba(36, 69, 94, 0.6) !important;
+  background-color: transparent !important;
 }
+
 /*
 ========================================
 Hero Style
