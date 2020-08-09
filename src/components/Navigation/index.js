@@ -9,7 +9,7 @@ function Navigation() {
             
             <Nav.Item>
                 <Nav.Link eventKey="/home" href="/#home">
-                    <h1 class="logo">K<span>L</span></h1>
+                    <h1 className="logo">K<span>L</span></h1>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
