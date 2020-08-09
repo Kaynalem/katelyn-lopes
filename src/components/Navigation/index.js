@@ -8,21 +8,21 @@ function Navigation() {
         <Nav variant="pills" defaultActiveKey="/" className="row navigation" id="navigation">
             
             <Nav.Item>
-                <Nav.Link eventKey="/home" href="/#/home">
+                <Nav.Link eventKey="/home" href="/katelyn-lopes/#/home">
                     <h1 className="logo">K<span>L</span></h1>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/#/about" className="" >About</Nav.Link>
+                <Nav.Link href="/katelyn-lopes/#/about" className="" >About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="/portfolio" href="/#/portfolio">Portfolio</Nav.Link>
+                <Nav.Link eventKey="/portfolio" href="/katelyn-lopes/#/portfolio">Portfolio</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="/contact" href="/#/contact">Contact</Nav.Link>
+                <Nav.Link eventKey="/contact" href="/katelyn-lopes/#/contact">Contact</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="/resume" href="/#/resume">Resume</Nav.Link>
+                <Nav.Link eventKey="/resume" href="/katelyn-lopes/#/resume">Resume</Nav.Link>
             </Nav.Item>
         </Nav>     
 
