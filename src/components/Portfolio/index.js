@@ -11,7 +11,6 @@ class Portfolio extends Component {
             <section className="section-title">
                 <h1 className="name">Portfolio</h1>
                 <hr></hr>
-                <h3 className="">Check out some of my work below or visit my GitHub page to see more</h3>
                 <Project id="card-data">
                     {portfolio.map((project) => (
                     <Projects key={project.id} name={project.name} image={project.image}  github={project.github} deployed={project.deployed} tools={project.tools}/>

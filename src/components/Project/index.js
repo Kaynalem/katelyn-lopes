@@ -9,19 +9,21 @@ function Projects(props) {
     return (
       <div className="cards"> 
         
-        <div className="content h-100">
+        <div className="content">
+        <h5 className="project-title font-weight-bold" id="card-title">{props.name}</h5>
         <div className="img-container">
           <img alt={props.name} src={props.image}/>
 
           </div>
-              <h5 className="project-title" id="card-title">{props.name}</h5>
-              <p id="toolss">
+
+              <a className="mr-3" href={props.github}><FontAwesomeIcon icon={faGithub} size="2x" alt="GitHub"/></a>
+              <a href={props.deployed}><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" alt="Deployed link"/></a>
+
+              <p id="tools">
                     {props.tools}
                 </p>
 
-              <a href={props.github}><FontAwesomeIcon icon={faGithub} size="2x" alt="GitHub"/></a> 
-              <a href={props.deployed}><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" alt="Deployed link"/></a> 
-
+              
               </div>
 
         </div>
