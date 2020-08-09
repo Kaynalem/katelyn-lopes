@@ -8,7 +8,7 @@ class Portfolio extends Component {
             return <div className="wrapper">{props.children}</div>;
         }
         return (
-            <section className="section-title container">
+            <section className="section-title">
                 <h1 className="name">Portfolio</h1>
                 <hr></hr>
                 <h3 className="">Check out some of my work below or visit my GitHub page to see more</h3>

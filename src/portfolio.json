@@ -46,5 +46,21 @@
     "github": "https://github.com/Kaynalem/password-generator",
     "deployed": "https://kaynalem.github.io/password-generator/",
     "tools": "HTML, JavaScript, CSS"
-    }
+    },
+    {
+    "id": 7,
+    "name": "Code Quiz",
+    "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/code-quiz2.jpg",
+    "github": "https://github.com/Kaynalem/code-quiz",
+    "deployed": "https://kaynalem.github.io/code-quiz/",
+    "tools": "HTML, JavaScript, CSS"
+    },
+    {
+        "id": 8,
+        "name": "Run Buddy",
+        "image": "https://raw.githubusercontent.com/Kaynalem/katelyn-lopes/master/src/assets/images/run-buddy2.jpg",
+        "github": "https://github.com/Kaynalem/run-buddy",
+        "deployed": "https://kaynalem.github.io/run-buddy/",
+        "tools": "HTML, CSS"
+        }
 ]
