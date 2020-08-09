@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/katelyn-lopes/static/css/main.56619765.chunk.css",
+    "main.css": "/katelyn-lopes/static/css/main.3ca3a534.chunk.css",
     "main.js": "/katelyn-lopes/static/js/main.2a26ef5a.chunk.js",
     "main.js.map": "/katelyn-lopes/static/js/main.2a26ef5a.chunk.js.map",
     "runtime-main.js": "/katelyn-lopes/static/js/runtime-main.307d17f0.js",
@@ -9,10 +9,10 @@
     "static/js/2.90a94064.chunk.js": "/katelyn-lopes/static/js/2.90a94064.chunk.js",
     "static/js/2.90a94064.chunk.js.map": "/katelyn-lopes/static/js/2.90a94064.chunk.js.map",
     "index.html": "/katelyn-lopes/index.html",
-    "precache-manifest.21baa1d7a7ed507fb529560bdb3de3c0.js": "/katelyn-lopes/precache-manifest.21baa1d7a7ed507fb529560bdb3de3c0.js",
+    "precache-manifest.f3e3b8f27ae7919a2097c5344ae0bdbb.js": "/katelyn-lopes/precache-manifest.f3e3b8f27ae7919a2097c5344ae0bdbb.js",
     "service-worker.js": "/katelyn-lopes/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/katelyn-lopes/static/css/2.11829350.chunk.css.map",
-    "static/css/main.56619765.chunk.css.map": "/katelyn-lopes/static/css/main.56619765.chunk.css.map",
+    "static/css/main.3ca3a534.chunk.css.map": "/katelyn-lopes/static/css/main.3ca3a534.chunk.css.map",
     "static/js/2.90a94064.chunk.js.LICENSE.txt": "/katelyn-lopes/static/js/2.90a94064.chunk.js.LICENSE.txt",
     "static/media/index.css": "/katelyn-lopes/static/media/cover-image.2885b87b.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.307d17f0.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.90a94064.chunk.js",
-    "static/css/main.56619765.chunk.css",
+    "static/css/main.3ca3a534.chunk.css",
     "static/js/main.2a26ef5a.chunk.js"
   ]
 }
