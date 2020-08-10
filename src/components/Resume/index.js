@@ -13,7 +13,7 @@ class Resume extends Component {
                 <div className="justify-content-center mt-5" id="resume">
                 <h3 className="font-weight-bold mb-4">Download my resume</h3>
                 <div>
-                <a href="../../src/assets/KatelynLopes.pdf" className="text-light text-decoration-none" download><FontAwesomeIcon icon={faDownload} size="2x" alt="Download Resume"/></a>
+                <a href="https://github.com/Kaynalem/katelyn-lopes/blob/master/src/assets/KatelynLopes.pdf" className="text-light text-decoration-none"><FontAwesomeIcon icon={faDownload} size="2x" alt="Download Resume"/></a>
                 </div>
                 
 
