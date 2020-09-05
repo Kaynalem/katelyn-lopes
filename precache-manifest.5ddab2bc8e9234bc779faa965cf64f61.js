@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3546f7b0b6bf69f76773a80647dc982c",
+    "revision": "8897bd2b093b30157a570d91edab482b",
     "url": "/katelyn-lopes/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/katelyn-lopes/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "f40770544862dbcc4e39",
+    "revision": "08fd5873ac9ff8b8ea9e",
     "url": "/katelyn-lopes/static/css/main.8c5d37fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/katelyn-lopes/static/js/2.90a94064.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f40770544862dbcc4e39",
-    "url": "/katelyn-lopes/static/js/main.d007ef8c.chunk.js"
+    "revision": "08fd5873ac9ff8b8ea9e",
+    "url": "/katelyn-lopes/static/js/main.8fe6ffc2.chunk.js"
   },
   {
     "revision": "6c2535e6babac1a578de",
